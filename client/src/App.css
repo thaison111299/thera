@@ -1,38 +1,140 @@
-.App {
-  text-align: center;
-}
+.container {
+  width: 100%;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+.chat-box {
+  width: 50%;
+  min-width: 400px; /* min-width: 400px; */
+}
+.message-container {
+  /* width: 100%; */
+  height: 300px;
+  overflow: scroll;
+  padding: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.message {
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+
+.my-message {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.title {
+  background-color: blue;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title h2 {
   color: white;
+  padding: 0px 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.message .message-text {
+  margin-left: 5px;
+  background-color: rgb(255, 0, 234);
+  padding: 10px;
+  border-radius: 30px;
+  color: rgb(58, 56, 57);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.my-message .message-text {
+  margin-left: 5px;
+  background-color: rgb(65, 195, 255);
+  padding: 10px;
+  border-radius: 30px;
+  color: rgb(58, 56, 57);
+}
+
+.my-message h3 {
+  font-style: italic;
+}
+
+.button-leave {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  border-radius: 30px;
+  background-color: rgb(255, 94, 175);
+  height: 38px;
+  min-width: 200px;
+  width: 50%;
+  margin-top: 50px;
+}
+
+.button-leave:hover {
+  background-color: red;
+}
+
+.input-text {
+  padding-left: 20px;
+  margin-left: -10px;
+  margin-top: 10px;
+  border-radius: 20px;
+  width: 100%;
+
+  height: 30px;
+  font-size: 20px;
+  border: 1px solid gray;
+}
+
+.input-text:focus {
+  outline: none;
+}
+
+.join-form {
+  padding: 10px;
+  width: 50%;
+  min-width: 400px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.join-form .input {
+  padding: 4px;
+  padding-left: 20px;
+  height: 30px;
+  width: 90%;
+  margin: 10px 0px;
+  font-size: 20px;
+}
+.join-form .input:focus {
+  font-weight: bold;
+}
+
+.join-form button {
+  font-size: 20px;
+  color: white;
+  background-color: blue;
+  width: 130px;
+  height: 50px;
+  border-radius: 20px;
+}
+
+.join-form button:hover {
+  background-color: aqua;
+  color: peru;
 }
