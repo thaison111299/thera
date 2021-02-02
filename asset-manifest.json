@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/thera-client/static/css/main.97ed9c31.chunk.css",
-    "main.js": "/thera-client/static/js/main.e22aa89f.chunk.js",
-    "main.js.map": "/thera-client/static/js/main.e22aa89f.chunk.js.map",
-    "runtime-main.js": "/thera-client/static/js/runtime-main.4158212b.js",
-    "runtime-main.js.map": "/thera-client/static/js/runtime-main.4158212b.js.map",
-    "static/js/2.af548e9a.chunk.js": "/thera-client/static/js/2.af548e9a.chunk.js",
-    "static/js/2.af548e9a.chunk.js.map": "/thera-client/static/js/2.af548e9a.chunk.js.map",
-    "static/js/3.e176cb7e.chunk.js": "/thera-client/static/js/3.e176cb7e.chunk.js",
-    "static/js/3.e176cb7e.chunk.js.map": "/thera-client/static/js/3.e176cb7e.chunk.js.map",
+    "main.js": "/thera-client/static/js/main.6ef2a793.chunk.js",
+    "main.js.map": "/thera-client/static/js/main.6ef2a793.chunk.js.map",
+    "runtime-main.js": "/thera-client/static/js/runtime-main.ee260a65.js",
+    "runtime-main.js.map": "/thera-client/static/js/runtime-main.ee260a65.js.map",
+    "static/js/2.093ff53d.chunk.js": "/thera-client/static/js/2.093ff53d.chunk.js",
+    "static/js/2.093ff53d.chunk.js.map": "/thera-client/static/js/2.093ff53d.chunk.js.map",
+    "static/js/3.47f6e615.chunk.js": "/thera-client/static/js/3.47f6e615.chunk.js",
+    "static/js/3.47f6e615.chunk.js.map": "/thera-client/static/js/3.47f6e615.chunk.js.map",
     "index.html": "/thera-client/index.html",
     "static/css/main.97ed9c31.chunk.css.map": "/thera-client/static/css/main.97ed9c31.chunk.css.map",
-    "static/js/2.af548e9a.chunk.js.LICENSE.txt": "/thera-client/static/js/2.af548e9a.chunk.js.LICENSE.txt",
+    "static/js/2.093ff53d.chunk.js.LICENSE.txt": "/thera-client/static/js/2.093ff53d.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/thera-client/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4158212b.js",
-    "static/js/2.af548e9a.chunk.js",
+    "static/js/runtime-main.ee260a65.js",
+    "static/js/2.093ff53d.chunk.js",
     "static/css/main.97ed9c31.chunk.css",
-    "static/js/main.e22aa89f.chunk.js"
+    "static/js/main.6ef2a793.chunk.js"
   ]
 }
