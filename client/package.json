@@ -1,6 +1,6 @@
 {
-  "homepage": "http://thaison111299.github.io/thera-client",
-  "name": "thera-client",
+  "homepage": "http://thaison111299.github.io/thera",
+  "name": "thera",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
